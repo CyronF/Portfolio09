@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/CyronF/Portfolio09#readme",
   "dependencies": {
-    "inquirer": "^8.1.0"
+    "catch": "^1.0.48",
+    "fs": "0.0.1-security",
+    "inquirer": "^8.1.0",
+    "open": "^8.2.0",
+    "promises": "^0.2.5"
   }
 }
