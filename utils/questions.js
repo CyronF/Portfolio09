@@ -1,5 +1,10 @@
 const questions = [
     {
+        name: "username",
+        message: "What is your GitHub username?"
+    },
+
+    {
         name: "title",
         message: "What is the title of your project?"
     },
@@ -15,7 +20,7 @@ const questions = [
     },
 
     {
-         name:"useage",
+         name:"usage",
          message:"Briefly describe the useage of this project."
     },
 
@@ -31,9 +36,9 @@ const questions = [
     
     {
         type: "checkbox",
-            name: "license",
-            message: "Chose the appropriate license for this project: ",
-            choices: [
+        name: "license",
+        message: "Chose the appropriate license for this project: ",
+        choices: [
                 "Apache",
                 "Academic",
                 "GNU",
@@ -41,14 +46,14 @@ const questions = [
                 "MIT",
                 "Mozilla",
                 "Open"
-            ]
-    }
-        
+            ],
+    },
 
-        
+    {
+        name: "questions",
+        message: "Please email me if you have any questions?"
 
-
-
+    }, 
     
 ];
 
