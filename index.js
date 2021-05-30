@@ -11,7 +11,7 @@ const answers = await inquirer.prompt(questions)
 const markDown = generateMarkdown(answers)
 //save file 
 const fileName = await saveMarkdown(markDown)
-open(markDown)
+open(fileName)
 
 }
 

@@ -21,16 +21,16 @@ const questions = [
 
     {
          name:"usage",
-         message:"Briefly describe the useage of this project."
+         message:"Briefly describe the usage of this project."
     },
 
     {
         name:"contributing",
-        message:"Please include contributing guidelines for this project."
+        message:"Please include contributors for this project."
     },
     
     {       
-        name:"test",
+        name:"tests",
         message:"Write your test instructions."
     },
     
@@ -51,10 +51,17 @@ const questions = [
 
     {
         name: "questions",
-        message: "Please email me if you have any questions?"
+        message: "Please let me if you have any questions."
 
-    }, 
+    },
+
+    {
+        type:"input",
+        name:"email",
+        message: "Please enter your email address."
+
+    }
     
-];
+]
 
 module.exports = questions;
